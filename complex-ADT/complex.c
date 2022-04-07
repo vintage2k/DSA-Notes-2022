@@ -19,9 +19,10 @@ Complex CxCreate(double real, double imaginary){
 	c.b = imaginary;
 	return c;
 }
-Complex CxMod(const Complex cx){
+double CxMod(const Complex cx){
 	double mod;
 	mod =(cx.a*cx.a) + (cx.b*cx.b);
+	return mod;
 }
 
 void CxPrint(const Complex cx){
@@ -37,7 +38,7 @@ Complex CxInverse(const Complex cx){
 
 
 Complex CxConjugate(const Complex cx){
-	complex c;
+	Complex c;
 	c.a = cx.a;
 	c.b = -1*cx.b;
 	return c;

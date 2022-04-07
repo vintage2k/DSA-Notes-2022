@@ -28,4 +28,5 @@ Complex CxInverse(const Complex cx); // complex reciprocal
 Complex CxConjugate(const Complex cx); // complex conjugate
 Complex CxSquareRoot(const Complex cx); // square root of cx
 Complex CxDivision(const Complex c1, const Complex c2); // c1/c2
+
 #endif
